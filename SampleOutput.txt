@@ -1,0 +1,34 @@
+Do you wish to add a student (y/n): y
+1002
+John
+Do you wish to add a student (y/n): y
+1003
+Steve
+Do you wish to add a student (y/n): y
+1001
+Mary
+Do you wish to add a student (y/n): y
+1004
+Nancy
+Do you wish to add a student (y/n): n
+
+Students in the original linked list (sorted by fName) are –
+(1002,John) -> (1001,Mary) -> (1004,Nancy) -> (1003,Steve) ->
+
+Sorting the linked list by student ID
+
+Students in the sorted linked list (sorted by ID) are –
+(1001, Mary) -> (1002,John) -> (1003, Steve) -> (1004,Nancy) ->
+
+
+
+ASSIGNMENT:
+Consider student information as before, where each student should have id (integer), first-name (10 chars max with no spaces). Use the student struct as linked list.
+
+-Create 3 files – student.h, student.c, main.c. Partial code is provided on the right.
+-Your job is to mainly write code for the 3 functions mentioned – print, insertStudentByName, sortListByID.
+-print() - Print the linked list in order starting from “head”. Print all elements for each node.
+-insertStudentByName() -  Create and insert new nodes in the linked list. The insertion should happen in alphabetical order of the first-name. The values for ID and fName are to be taken from user.
+-sortListByID() -  Sort the linked list in increasing order of the student-id (integer). You can use any sorting algorithm – bubble, selection, insertion, merge.
+-In the “main.c” file, write code such that user can keep on providing the input. Consider a stop case – ask the user if s/he wants to continue or stop.
+-You need to submit 3 files – ‘student.h’, ‘student.c’, ‘main.c’
